@@ -1,0 +1,563 @@
+<html>
+	<head>
+
+		<title>Salcedo Attorneys</title>
+		<script src="https://use.fontawesome.com/0bb27e02f8.js"></script>
+		<!-- Meta-Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Affiliation a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- //Meta-Tags -->
+
+		<!-- Custom-Stylesheet-Links -->
+		<!-- Bootstrap-CSS --> 		<link rel="stylesheet" href="css/bootstrap.min.css" 		type="text/css" media="all">
+		<!-- Index-Page-CSS --> 	<link rel="stylesheet" href="css/style.css" 				type="text/css" media="all">
+		<!-- PopUp-Box-CSS -->		<link rel="stylesheet" href="css/chocolat.css" 			type="text/css" media="all">
+		<!-- Font-Awesome-CSS --> 	<link rel="stylesheet" href="css/font-awesome.min.css"	type="text/css" media="all">
+		<!-- //Custom-Stylesheet-Links -->
+
+		<!-- Fonts -->
+		<!-- Body-Font --> 	 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" 	type="text/css" media="all">
+		<!-- Logo-Font --> 	 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:900,800,700,600" 			type="text/css" media="all">
+		<!-- Font-Awesome -->	<link rel="stylesheet" href="fonts/fontawesome-webfont.ttf" 										type="text/css" media="all">
+		<!-- //Fonts -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+		<script src="js/externalJs.js"></script>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+		<!-- Necessary-JS-File-For-Bootstrap --> <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<!-- Slider-JavaScript -->
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				$(function () {
+					$("#slider, #slider1").responsiveSlides({
+						auto: true,
+						nav: true,
+						speed: 1500,
+						namespace: "callbacks",
+						pager: true,
+					});
+				});
+			</script>
+		<!-- //Slider-JavaScript -->
+
+		<!-- Tabs-JavaScript -->
+			<script src="js/jquery.filterizr.js"></script>
+			<script src="js/controls.js"></script>
+			<script type="text/javascript">
+				$(function() {
+					$('.filtr-container').filterizr();
+				});
+			</script>
+		<!-- //Tabs-JavaScript -->
+
+		<!-- PopUp-Box-JavaScript -->
+			<script src="js/jquery.chocolat.js"></script>
+			<script type="text/javascript" charset="utf-8">
+				$(function() {
+					$('.filtr-item a').Chocolat();
+				});
+			</script>
+		<!-- //PopUp-Box-JavaScript -->
+
+		<!-- Slide-To-Top JavaScript (No-Need-To-Change) -->
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 100,
+						easingType: 'linear'
+					};
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			
+		<!-- //Slide-To-Top JavaScript -->
+
+		<!-- Smooth-Scrolling-JavaScript -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll, .navbar li a, .footer li a").click(function(event){
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+			</script>
+		<!-- //Smooth-Scrolling-JavaScript -->
+		<!-- map javascript -->
+		<script>
+		    function myMap() {
+					var myLatLng = {lat: 25.7729949, lng: -80.1909435};
+
+				  	var map = new google.maps.Map(document.getElementById('map'), {
+				    	zoom: 16,
+				    	center: myLatLng
+				  	});
+
+				  	var marker = new google.maps.Marker({
+				    	position: myLatLng,
+				    	map: map,
+				    	title: 'Salcedo Attorneys at Law, PA'
+				  	});
+				  	// This event listener calls addMarker() when the map is clicked.
+        			google.maps.event.addListener(map, 'click', function(event) {
+          				addMarker(event.latLng, map);
+        			});
+        			google.maps.event.addListener(marker, 'click', function() {
+						infowindow.open(map,marker);
+					});
+
+					//Resize Function
+					google.maps.event.addDomListener(window, "resize", function() {
+						var center = map.getCenter();
+						google.maps.event.trigger(map, "resize");
+						map.setCenter(center);
+					});
+        			// Add a marker at the center of the map.
+        addMarker(bangalore, map);
+			}
+
+	      google.maps.event.addDomListener(window, 'load', initialize);
+
+			/*
+<!--
+		my api key is:
+		 AIzaSyCP4bMWv7CQib8X9svZP6d72_fmYOdB9D8 
+		 You need to ask: does it work if someone else opens it ?
+
+		 latitude: 25.7729949
+		 longitude: -80.1909435
+      -->
+			*/
+      </script>
+      <!-- //map javascript>-->
+
+      <!-- scroll down button
+      -->
+
+	<!-- //Custom-JavaScript-File-Links -->
+
+	<!--
+		script for the pop-ups
+	-->
+	<!--<script type="text/javascript">
+		
+		// Popup Window
+		var scrollTop = '';
+		var newHeight = '100';
+		 
+		$(window).bind('scroll', function() {
+		  scrollTop = $( window ).scrollTop();
+		  newHeight = scrollTop + 100;
+		});
+				
+		$('.popup-trigger').click(function(e) {
+		  e.stopPropagation();
+		  if(jQuery(window).width() < 767) {
+		    $(this).after( $( ".popup" ) );
+		    $('.popup').show().addClass('popup-mobile').css('top', 0);
+		    $('html, body').animate({
+		      scrollTop: $('.popup').offset().top
+		    }, 500);   
+		  } else {
+		    $('.popup').removeClass('popup-mobile').css('top', newHeight).toggle();
+		  };
+		});
+				
+		$('html').click(function() {
+		  $('.popup').hide();
+		});
+		 
+		$('.popup-btn-close').click(function(e){
+		  $('.popup').hide();
+		});
+		 
+		$('.popup').click(function(e){
+		  e.stopPropagation();
+		}); 
+	</script>-->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP4bMWv7CQib8X9svZP6d72_fmYOdB9D8&callback=myMap"
+    async defer></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	</head>
+	<body>
+		<div class="practice w3layouts agileits" id="practice">
+			<div class="w3layouts agileits" id = "div3">
+			<!--Nav bar-->
+				<nav class="navbar navbar-default w3layouts agileits hover-effect">
+					<div class="container">
+
+						<div class="navbar-header w3layouts agileits" style="width: 30%;">
+							<button type="button" class="navbar-toggle w3layouts agileits collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+								<span class="sr-only w3ls agileits">Toggle navigation</span>
+								<span class="icon-bar aits w3layouts"></span>
+								<span class="icon-bar w3ls w3layouts"></span>
+								<span class="icon-bar aits agileits"></span>
+							</button>
+							<a class="navbar-brand w3layouts agileits" href="index.html">
+								<img class = "logo" style="position: relative; width: auto" border="0" src="./images/JSH-Logo.png">
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse w3layouts agileits navbar-right collapse" style="width: 70%;">
+							<ul class="nav w3layouts agileits navbar-nav">
+								<li><a href="./professionals.html">PROFESSIONALS</a></li>
+								<li><a href="./practices.html">PRACTICE AREAS</a></li>
+								<li><a href="./contact.html">CONTACT</a></li>
+								<li><a href="https://www.google.co.uk/maps?q=25.7729949,-80.1909435">
+
+								<i style="width:15px;height:15px;color:white"class="change fa fa-map-marker" aria-hidden="true">
+									
+								</i>
+
+								</a>
+							</li>
+
+								<br><br><hr id = "separator" height: 4px; width: 90%;>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			<!--// Nav bar-->
+			</div>
+			<ul style="background-size:cover; background: url('./images/practices.png');overflow: unset;padding-top: 20%"class="rslides w3layouts agileits" id="slider">
+				<li style="top: 20%;">
+					<div class="title_practices">
+						A Business-Minded Law Firm,
+						<br>
+						Serving Domestic and International Clients.
+					</div>
+					<div class = "practices_info">
+							Salcedo Attorneys at Law P.A. is a dynamic business-minded law firm that serves a domestic and international clientele a variety of industries. With broad experience practicing law in the state of Florida and in Latin America, our areas of practice include: 
+							<br>
+							<span style="font-size: 20px;">
+							<b>
+								<a style="color:white" href="./contact.html">Contact Salcedo for additional information.
+								</a>
+							</b>
+						</span>
+						<br>
+						<br>
+						<br>
+						<br>
+						<a style="font-size: 26px; color:white">
+											 Click Below to View More Information on the Desired Topic:
+						</a>
+					</div>
+					
+					<div id= "info"class="w3layouts agileits" style="padding-left:5%; padding-right:5%">
+						<div class="shadowed" style="font-size:17px"; width:"auto">
+							<div class='text-block'style= "height: auto;" >
+									  <div class='primary'style="padding-left: 5%">
+									  		<br>
+										  	<b class="fa fa-angle-down mouseHover">Corporate planning</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary' style="padding-left:5%;background: rgba(200, 255, 255, 0.1);">
+									  		<b>Expertise, Service and Experience.</b>
+									  		<br> 
+									  		Salcedo Attorneys at Law P.A. provides extensive corporate planning services to clients<br>representing numerous industries, including food and beverage, energy, banking, real estate, and<br>courier and money services. From initial ideation to operational fine-tuning, our skilled team of<br>attorneys helps clients drive the business growth they desire.<br>Our winning combination of legal expertise, responsive client service and experience with specific<br>types of businesses can help you develop strategies that lead to success in U.S. and Latin American markets.<br><br>
+									  		<b>Entity Formation, Contracts, Acquisitions and Real Estate Transactions</b><br>
+									  		Our corporate planning practice includes:<br> 
+									  		• Formation of international and domestic entities, including the incorporation of offshore branches and subsidiaries.<br> 
+									  		• Drafting and negotiation of a wide array of business contracts, including distribution agreements, operating agreements, shareholder agreements and stock purchase contracts.<br> 
+									  		• Implementation of corporate structures specifically designed for the acquisition of real estate by domestic and/or international investors.<br> 
+									  		• Merger and acquisition planning and execution that bridges geographic, organizational and language gaps, accomplishing broader protection when performing due diligence and negotiating transactional agreements.<br> 
+									  		• Business integration planning that facilitates smooth transitions and efficient operations in the U.S. and in Latin America.<br> 
+									  		• Managing real estate purchases, sales and leasing related to mergers and acquisitions.<br> 
+									  		• Leveraging a wide network of attorneys, providing special counsel to address complex regulatory issues. <br><br>
+
+									  		<a href="./contact.html" style="color:#BC9865">
+									  			Contact us to learn more about our capabilities.
+									  		</a>
+									  </div>
+							</div>
+							<div class='text-block' style= "height: auto;" >
+									  <div class='primary'style="padding-left: 5%">
+									  		<b class="fa fa-angle-down mouseHover">
+									  			Real estate Transactions
+									  		</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left:5%;background: rgba(200, 255, 255, 0.1);">
+									  		<br><br>
+									  		<b>Facilitating Effective Commercial and Residential Transactions.</b><br>
+									  		Real estate transactions can solidify excellent business opportunities, and they can also provide<br>uncertainty and anxiety when not planned and executed properly.<br>Our attorneys provide legal counsel to a variety of clients in facilitating commercial and residential<br>real estate transactions. We serve high net-worth individuals and corporations acquiring real estate,<br>investment groups and private equity funds. Our goal is to assist our clients in achieving their<br>objectives while mitigating risk. Comprehensive Legal Guidance and Representation Our attorneys bring a high level of experience with real estate matters of all kinds. The firm’s capabilities include legal guidance and representation in:<br>
+									  		• Real estate matters related to mergers and acquisitions in the U.S. and Latin America.<br> 
+									  		• Residential purchase and sale agreements.<br> 
+									  		• Purchase, sale and leasing of commercial properties, including manufacturing, shopping centers, office, retail and warehouse spaces and mixed-use properties.<br> 
+									  		• Purchase and sale of hotel and resort properties in the United States and throughout Latin America.<br> 
+									  		• Purchase and sale of low-income housing developments and other residential real estate in the United States<br>
+									  		• Financing, including the development and negotiation of commercial loan opportunities and private offerings related to real estate investments Landlord-tenant matters involving commercial and residential properties.
+
+									  		<br><br>
+
+									  		<a href="./contact.html" style="color:#BC9865">
+									  		Contact us to learn more about our capabilities.
+									  		</a>
+									  </div>
+							</div>
+							<div class='text-block' style= "height: auto;" >
+									  <div class='primary'style="padding-left: 5%">
+									  		<b class="fa fa-angle-down mouseHover">			Mergers and Acquisitions
+									  		</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+									  		<br><br>
+									  		<b>Managing Complexities. Maximizing Opportunities.</b><br>
+									  		Business mergers and acquisitions can be extremely complicated matters, even when undertaken<br>
+									  		within one jurisdiction. When international laws are involved, things can become geometrically more<br>
+									  		complex. In order to gain the full benefit of major international business opportunities and to avoid<br>
+									  		serious risks, having the help of experienced legal counsel is essential.<br>
+									  		The law firm of Salcedo Attorneys at Law P.A. regularly represents multinationals acquiring<br>
+									  		businesses and expanding operations in the state of Florida; we also assist U.S.-based corporations<br>
+									  		acquiring and expanding their presence in the Latin American region. Our clients are engaged in<br>
+									  		numerous industries, including food and beverage, energy, banking, money services, international<br>
+									  		courier services and real estate.<br><br>
+
+									  		<b>Comprehensive Services for Business</b>
+									  		Our team of <i>attorneys</i> covers a range of specialty areas relevant to mergers and acquisitions in<br> Latin American markets. As a provider of comprehensive legal services, our M&A capabilities include:<br>
+									  		• Exploration of acquisition opportunities and risk assessment in context.<br>
+									  		• Drafting and negotiation of business contracts, including distribution agreements, operating agreements, shareholder agreements and stock purchase agreements.<br>
+									  		• Handling of real estate matters associated with acquisitions and mergers, including transactions regarding facilities<br>
+									  		• Business integration in the U.S. and in Latin America that facilitates smooth transitions and efficient operations<br>
+									  		• Management of essential regulatory and licensing matters.<br><br>
+									  		<b>Due Diligence</b><br>
+									  		Performing due diligence prior to a stock or asset purchase requires more than reviewing key legal<br>
+									  		elements and potential liabilities of the targeted business. It requires a deep understanding of the<br>
+									  		business culture and environment in which the business operates.<br><br>
+									  		Salcedo specializes in performing due diligence in those markets where we have a significant<br>
+									  		presence and understanding of the business culture. Having our headquarters in Miami, Florida, has<br>
+									  		allowed us to fully understand how business is transacted in a dynamic multicultural environment,<br>
+									  		an environment in which many of the key players come from Hispanic backgrounds but where<br>
+									  		investors tend to forget that U.S. federal and state laws still apply. In addition, our presence in<br>
+									  		South America has allowed us to serve as a bridge for U.S. corporations targeting Latin<br>
+									  		American-based corporations and expanding their business in South America. <br><br>
+
+									  		<a style="color:#BC9865;"href="./contact.html">
+									  			Contact Salcedo to learn more.
+									  		</a>
+									  </div>
+							</div>
+							<div class='text-block' style= "height: auto;">
+									  <div class='primary' style="padding-left: 5%;">
+									  	<b class="fa fa-angle-down mouseHover">
+									  		Business Inmigration Planning
+									  	</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+									  		<br><br>
+									  		<b>
+									  			When International Business Involves Immigration Challenges.
+									  		</b>
+									  		<br>
+									  		Foreign companies doing business in the U.S. and American corporations with operations overseas<br>
+									  		often find themselves in need of skilled legal counsel in order to expedite complex immigration<br>
+									  		processes on behalf of key employees and investors. Specific corporate structures need to be<br>
+									  		correctly implemented from the beginning of business operations in the United States in order to<br>
+									  		prevent foreign individuals or corporations from losing the opportunity to gain special immigration<br>
+									  		benefits for their employees and investors.<br>
+									  		The business law firm of Salcedo is experienced with immigration issues that intersect with international business matters. We can help navigate the procedural and administrative challenges<br>
+									  		that often stand in the way of smooth business transitions in the United States.<br><br>
+									  		<b>Facilitating Crucial Immigration Solutions</b><br>
+									  		In the context of our corporate planning or mergers and acquisitions practice, or as a separate<br>
+									  		matter, our attorneys can help facilitate crucial immigration solutions by:<br>
+									  		• Researching and consulting on immigration options, which may be numerous and complex for a given individual. Our immigration specialists understand the nuances of each type of visa and can help you or your employees pursue the most effective course of action. <br>
+									  		• Working to procure nonimmigrant visas and preparing all necessary paperwork with the U.S. Immigration and Naturalization Service: Various visa options may be available for business managers and others with special skills, education or other qualifications that can make it easier to work in the United States. These options can include temporary H1 work visas for professionals, which may be limitedly available; O visas for exceptionally qualified foreign business leaders; L visas that may be available when foreign transfers within a corporation are involved; and investor visas such as E-2 and EB-5. <br>
+									  		<a href="./contact.html" style="color:#BC9865;">Contact us to learn more about our capabilities.</a>
+									  </div>
+							</div>
+							<div class='text-block'style= "height: auto;">
+									  <div class='primary' style="padding-left: 5%">
+									  	<b class="fa fa-angle-down mouseHover">				International Tax Planning
+									  	</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+											<br><br>
+											<b>Optimizing Tax Position. Reducing Exposure. </b><br>
+											Salcedo represents non-U.S. tax residents and foreign corporations in creating U.S. and off-shore<br>
+											corporate structures for their assets located in the United States. Specifically, we enable them to<br>
+											find a balance between structures that are efficient for both income and estate tax purposes.<br><br>
+											<b>Representing Foreign Nationals With Significant U.S. Assets </b><br>
+											Our experienced <u>attorneys</u> typically represent foreign nationals with significant assets in the United<br>
+											States, such as businesses and real estate holdings, though our presence in numerous Latin<br>
+											American locations allows us to serve clients abroad. In many situations, we help asset holders and<br>
+											investors form U.S. or overseas entities that help them achieve favorable tax status.<br><br>
+											Our attorneys assess the tax implications for the client, determine if the assets are purchased for short-term profit or long-term investment and minimize the potential estate and income tax implications that apply to foreign investors. <br>
+											<br>
+											<a href="./contact.html" style="color:#BC9865">
+												Contact us for assistance with your international tax or business matter.
+											</a>
+									  </div>
+							</div>
+							<div class='text-block'style= "height: auto;">
+									  <div class='primary' style="padding-left: 5%">
+									  	<b class="fa fa-angle-down mouseHover">				International Business Transactions
+									  	</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%;background: rgba(200, 255, 255, 0.1);">
+									  		<br><br>
+									  		<b>
+									  			Complex Legal Challenges. Sophisticated Legal Solutions. 
+									  		</b>
+									  		When international law impacts business, complex challenges call for sophisticated legal solutions.<br>
+									  		The law firm of Salcedo Attorneys at Law P.A. provides comprehensive legal services to American<br>
+									  		companies doing business in Latin America, as well as to international corporations and firms with<br>
+									  		U.S. interests. In addition to leveraging a formidable domestic legal team, we hire and manage<br>
+									  		attorneys in other countries with specific legal competencies.<br><br>
+									  		<b>
+									  			Critical Knowledge of Markets, Laws and Cultures
+									  		</b><br>
+									  		As a firm concentrating on specific industries, we have connections with excellent legal<br>
+									  		and business resources in numerous Latin American markets — and we understand the cultural<br>
+									  		contexts of those markets. With specialists in multiple areas of international business, our services<br>
+									  		include:<br> 
+									  		• Formation of entities, including corporations, LLCs and joint ventures that enable international food and beverage manufacturers to effectively import and distribute products in the U.S., and incorporation of American subsidiaries in Latin American countries. <br>
+									  		• Structuring of shareholder agreements and stock purchase agreements for new ventures in the U.S. and Latin America • Development and negotiation of distribution agreements in the United States and Latin American countries based on specific key performance indicators for each product and territory.<br>
+									  		• Supervision of acquisitions and development of asset purchase agreements.<br> 
+									  		• Drafting and negotiation of international business contracts for the importation of products to the United States. <br>
+									  		• Representation in real estate purchases and sales in the U.S. and throughout Latin America. <br>
+									  		• Representation of private equity funds in the acquisition of U.S. based corporations with licenses to explore and sell oil in Latin America.<br>
+									  		• Representation in the purchase of power plants and energy equipment in the United States, Europe and South America. <br><br>
+									  		<a href="./contact.html" style="color:#BC9865">
+									  			Contact us to learn more.
+									  		</a>
+									  </div>
+							</div>		
+							<div class='text-block'style= "height: auto;">
+									  <div class='primary' style="padding-left: 5%">
+									  		<b class="fa fa-angle-down mouseHover">			Private Offerings
+									  		</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+											<br><br>
+											<b>Achieving Maximum Benefit and Mitigating Risk.</b>
+											As business attorneys, our goal is to enable our clients to achieve maximum benefit from their<br>
+											activities, assessing potential gains and risks and maintaining important relationships. This calls<br>
+											for a detailed understanding of each business that we represent.<br>
+											With regard to private offerings and other targeted investment modalities, Salcedo Attorneys at Law<br>
+											P.A. serves international and domestic clients seeking to secure funding from group and individual<br>
+											investors. Our attorneys have assisted Latin American and U.S.-based clients in procuring private<br>
+											circular offerings that provide them with effective financing tools for their real estate projects, oil<br>
+											explorations and art funds in the United States and abroad.<br>
+											<br>
+											<b>
+												Significant Experience With Private Offerings
+											</b>
+											<br>
+											We have significant experience in facilitating private offerings for international clients in different industries, with competencies that include:<br>
+											• Preparing private offering documents, including shareholder agreements, subscription agreements and operating agreements that map out risk factors and opportunities for the issuer and the investor.<br>
+											• Providing sound offering documents that are custom built for domestic and international investors.
+											<br>
+											• Structuring private circular offerings and developing term sheets.<br>
+											• Representing real estate funds in capital development endeavors, including the purchase of high-end resort and hotel properties and low-income housing facilities in the United States and the Caribbean.<br>
+											• A detailed understanding of private stock offerings and other types of private funding that present complexity but offer specific benefits to businesses.<br><br>
+											Our attorneys excel at assisting our clients pursue and structure the types of financing that are best suited to their projects and investments. <br><br>
+
+											<a href="./contact.html" style="color:#BC9865">
+												Contact us to learn more about our capabilities. 
+											</a>
+									  </div>
+							</div>
+							<div class='text-block'style= "height: auto;">
+									  <div class='primary' style="padding-left: 5%">
+									  	<b class="fa fa-angle-down mouseHover">Contract Law</b>
+									  </div>
+									  <hr class="newHr">
+									  <div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+											<br><br>
+											<b>
+												Strategic Help With Business Contracts
+											</b>
+											<br>
+											When they are structured well and written thoroughly, business contracts help define important<br>
+											requirements, protect a party’s interests and prevent future conflicts. Strong contracts are essential<br>
+											for doing business effectively, particularly when the complexities of international law come into<br>
+											play. Yet, since every business is different and each transaction or agreement presents unique<br>
+											challenges, one size never fits all.<br>
+											At Salcedo Attorneys at Law P.A. our attorneys draft and
+											negotiate contracts that define deals and
+											<br> 
+											arrangements that need to be clearly documented. As a business-oriented firm, we develop and<br>
+											execute strategies that serve to support our clients’ best interests.<br><br>
+											<b>
+												A Wide Range of Contracts for Business
+											</b>
+											Our experience with U.S. and international contract matters is extensive. In leveraging the strongest<br>
+											talent at every turn, we use experts in relevant areas of the law to ensure that documents contain<br>
+											the exact language that they need to contain. We can assist you with the following:<br>
+											• Product distribution agreements.<br>
+											• Operating agreements and shareholders agreements.<br>
+											• Stock purchase and asset purchase agreements. <br>
+											• Set purchase agreements that are specific to our clients’ particular industries. <br>
+											• Domestic and international business merger and acquisition contracts that are thorough and based on a full understanding of the entities involved. <br>
+											• Real estate contracts for residential and commercial properties, including hotels, resorts and housing developments.<br> 
+											• Banking and finance contracts.<br> 
+											• Venture capital, private offerings and other forms of business capitalization.<br> <br>
+											<a href="./contact.html" style="color:#BC9865">
+												Contact Salcedo to learn more.
+											</a>
+									  </div>
+							</div>
+							<div class='text-block'style= "height: auto;">
+										<div class='primary' style="padding-left: 5%">
+										  <b class="fa fa-angle-down mouseHover">
+										  	General Counsel Services
+										  </b>
+										</div>
+										<hr class="newHr">
+										<div class='secondary'style="padding-left: 5%; background: rgba(200, 255, 255, 0.1);">
+										  		<br><br>
+										  		<b>Complete Representation for Essential Business Matters.</b>
+										  		<br>
+										  		For many businesses, maintaining full-time in-house counsel is not practical, particularly for their<br>
+										  		operations in foreign countries. However, since having regular access to personalized legal services<br>
+										  		on business matters is vital to risk management and overall success, many businesses are<br>
+										  		choosing outsourced general counsel as a solution.<br>
+										  		Salcedo serves as general counsel to businesses and American divisions of foreign corporations,<br>
+										  		engaging our network of specialized attorneys in the U.S. and throughout Latin America to help our<br>
+										  		clients protect their interests.<br><br>
+										  		<b>
+										  			Comprehensive Legal Services That Reflect Your Priorities 
+										  		</b>
+										  		<br>
+										  		In serving as general counsel, we can provide comprehensive legal services that reflect a true
+										  		<br>
+										  		understanding of your business priorities, your cultural considerations and the demands of your
+										  		<br>
+										  		industry. Our team of attorneys can help you cover all your legal needs, including those that<br>concern:<br> 
+										  		• Drafting and negotiation of contracts, including buying and selling agreements, distribution and operating agreements, stock purchase agreements and other transactional documents.<br>
+										  		• Entity formation and capital development that meet specific needs.<br> 
+										  		• International business transactions that require detailed knowledge of U.S. and foreign laws and treaties.<br> 
+										  		• Real estate selling, purchasing and leasing.<br> 
+										  		• Banking and financing matters, including commercial and consumer loans.<br> 
+										  		• Mergers and acquisitions.<br> 
+										  		• Domestic and international regulatory issues.<br> 
+										  		• Employment and immigration issues.<br> 
+										  		• Litigation strategies that are cost-effective for our clients.<br><br>
+
+											  	<a href="./contact.html" style="color:#BC9865">
+											  		Contact Salcedo for more information.
+											  	</a>
+										</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</body>
+
+</html>
